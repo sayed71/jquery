@@ -1,5 +1,6 @@
 ## jQuery UI Dialog
-```function show_dialog(message) {
+```
+function show_dialog(message) {
     var $dialog = $('<div />');
     var o = function (tt) {
         $dialog.text(tt).dialog({
